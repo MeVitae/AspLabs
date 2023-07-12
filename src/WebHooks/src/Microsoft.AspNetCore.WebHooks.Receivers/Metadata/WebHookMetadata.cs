@@ -95,6 +95,7 @@ namespace Microsoft.AspNetCore.WebHooks.Metadata
             {
                 services.TryAddEnumerable(ServiceDescriptor.Singleton(typeof(IWebHookVerifyCodeMetadata), type));
             }
+
         }
     }
 }

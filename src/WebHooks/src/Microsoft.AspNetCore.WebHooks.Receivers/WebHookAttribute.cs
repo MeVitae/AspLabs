@@ -41,7 +41,7 @@ namespace Microsoft.AspNetCore.WebHooks
 
         /// <summary>
         /// Instantiates a new <see cref="WebHookAttribute"/> indicating the associated action is a WebHook endpoint
-        /// for the given <paramref name="receiverName"/>.
+        /// for the given <paramref name="receiverName"/>
         /// </summary>
         /// <param name="receiverName">The name of an available <see cref="IWebHookReceiver"/>.</param>
         protected WebHookAttribute(string receiverName)

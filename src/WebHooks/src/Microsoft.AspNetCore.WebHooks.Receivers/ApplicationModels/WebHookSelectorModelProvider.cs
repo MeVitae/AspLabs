@@ -147,7 +147,8 @@ namespace Microsoft.AspNetCore.WebHooks.ApplicationModels
         {
             var template = "/api/webhooks/incoming/"
                 + $"{{{WebHookConstants.ReceiverKeyName}}}/"
-                + $"{{{WebHookConstants.IdKeyName}?}}";
+                + $"{{{WebHookConstants.IdKeyName}?}}/"
+                + $"{{opt1?}}";
 
             return template;
         }
